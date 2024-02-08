@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ConversorMoeda conversor = new ConversorMoeda();
+
+        conversor.converterDolarParaReal(5);
     }
 }
